@@ -67,7 +67,7 @@ int main(){
 	//Find a good solution
 	for(unsigned int i = 0, i_last = connections.size(); i < i_last; ++i){
 		for(unsigned int j = i + 1; j < i_last; ++j){
-            if(connections[i] != connections[j]){
+            		if(connections[i] != connections[j]){
 				cout << connections[i] << '\n' << connections[j];
 				return 0;
 			}
